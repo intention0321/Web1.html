@@ -54,10 +54,7 @@ body {
  float: right;
  padding-left: 5%;
 }
- /*짝수순서내용*/
- .bsc .item:nth-child(even).cont{
-  float: left;
-}
+
 .bsc .item .cont strong{
     font-size: 40px;
     display: block;
@@ -91,10 +88,7 @@ body {
  padding-bottom: 2%;
  
 }
-/*짝수 순서 이미지*/
-.bsc .item:nth-child(even) .image{
-    float: right;
-}
+
  .bsc .item .image img{
     width: 80%;
   
