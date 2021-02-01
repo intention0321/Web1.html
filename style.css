@@ -1,0 +1,103 @@
+body {
+       font-family: Arial, Helvetica, sans-serif;
+       
+
+      }
+
+.topnav {
+       overflow: hidden;
+      }
+    
+    a{
+        color : salmon;
+         text-decoration: none;
+     }
+.이름 {
+       float: left;
+       color: salmon;
+      padding-left: 20px;
+   }
+.topnav a{
+      float: left;
+      color: lightcoral;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 17px;
+      margin-left: 10px;
+      margin-top: 15px;
+      }
+  
+#grid {
+ width: 100%;
+ height:1000px;
+ background-color: rgb(251, 243, 237);
+ }
+
+ .전체{
+      width: 100%;
+      max-width: 1000px;
+      margin: 50px auto ;
+
+
+ }
+ .전체 .구성{
+       clear: both;
+     
+       
+ }
+ .전체 .구성 .설명,
+ .전체 .구성 .소개{
+      box-sizing: border-box;
+      width: 50%;
+ }
+
+ .전체 .구성 .설명{
+    float: right;
+    padding-top:3%;
+    padding-right: 5%;
+    
+
+ }
+ .전체 .구성 .소개{
+    float: left;
+    font-size: 50px;
+    padding-top: 15%;
+    margin-bottom: 50%;
+    padding-left: 7%;
+    
+    
+ }
+ .전체 .구성 .설명 strong{
+    font-size: 28px;
+    display: block;
+    
+
+ }
+ .전체 .구성 .설명 dl{
+       
+       
+
+ }
+ .전체 .구성 .설명 dt{
+       font-size: 20px;
+       margin-bottom: 5px;
+       display: inline-block;
+
+
+ }
+ .전체 .구성 .설명 dt span{
+       color: salmon;
+       font-weight: 600;
+       font-size: 25px;
+
+ }
+ .전체 .구성 .설명 dd{
+       font-size: 20px;
+       
+ }
+
+ .전체 .구성 .소개 >div{
+       margin-bottom: 3%;
+      
+
+ }

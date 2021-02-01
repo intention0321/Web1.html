@@ -1,0 +1,72 @@
+
+
+
+
+.bsc{
+    width: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 50px auto ;
+
+}
+.bsc .item{
+    clear: both;
+
+}
+.bsc .item .cont,
+.bsc .item .image {/*중복되는게 있으면 이렇게 묶을수있음*/
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+
+.bsc .item .cont{
+ float: right;
+ padding-left: 5%;
+}
+ /*짝수순서내용*/
+ .bsc .item:nth-child(even).cont{
+  float: left;
+}
+.bsc .item .cont strong{
+    font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.bsc .item .cont  dl{
+    font-size: 0;
+}
+
+
+.bsc .item .cont  dt,
+.bsc .item .cont  dd{
+ display: inline-block;
+ font-size: 18px;
+ font-weight: 500;
+}
+ .bsc .item .cont  dt{
+ width: 40%;
+ font-weight: 600;
+ color: darkgrey;
+ margin-bottom: 10px;
+}
+.bsc .item .cont  dd{
+ width: 90%;
+}
+
+.bsc .item .image{
+ float: left;
+ padding-right: 5%;
+ padding-bottom: 2%;
+ 
+}
+/*짝수 순서 이미지*/
+.bsc .item:nth-child(even) .image{
+    float: right;
+}
+ .bsc .item .image img{
+    width: 80%;
+  
+   }

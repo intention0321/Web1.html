@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+   }
+a{
+    color :inherit;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none; /*리스트앞에 점 없앰*/
+}
+
+header>div{ /*너무 양쪽으로 쏠려서 div로 묶었고 div를 표시하기위해 꺽새를넣음*/
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    height: 80px;
+    margin : 0 auto;/*홈페이지 가운데로 향하게*/
+    padding-top: 20px;
+}
+header .이름 { /*이름아이콘*/
+float :left;
+color: salmon;
+
+}
+
+header .gnb {/*위에 메뉴바*/
+float: right;
+}
+header .gnb li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 12px;
+    color: salmon;
+}
+header .gnb li:first-child{ /*첫번쨰 메뉴만 마진이 0이고 그다음부터는 떨어져있음*/
+    margin-left: 0;
+}
